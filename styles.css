@@ -212,7 +212,10 @@ h5 {
     font-weight: bold;
 }
 
-/* Sección de Contacto */
+.services li p {
+    text-align: start;
+}
+
 .contact {
     padding: 50px 20px;
     background-color: #333;
