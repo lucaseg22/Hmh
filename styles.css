@@ -247,7 +247,7 @@ h5 {
 }
 
 .contact button, .contactb {
-    background-color: #626262;
+    background-color: #333;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -258,7 +258,7 @@ h5 {
 }
 
 .contact button:hover, .contactb:hover {
-    background-color: #383838;
+    background-color: #3f3f3f;
     text-decoration: none;
 }
 
