@@ -89,9 +89,10 @@ nav {
 
 /* Sección Quiénes Somos */
 .about {
-    padding: 50px 20px; 
+    padding: 20px 20px; 
     color: #fafafa;
-    background-color: #333;
+    background: linear-gradient(#333,80%, gray);
+
     text-align: center;
 }
 
@@ -113,7 +114,7 @@ nav {
     justify-content: center;
 }
 
-.about li {
+.about li, .colaboradores li {
     display: inline-block;
     padding: 20px;
     font-size: 15px;
@@ -124,16 +125,31 @@ nav {
 }
 
 .about li img {
-    width: 25em;
-    height: 30em;
+    width: 20em;
+    height: 22em;
     border-radius: 10%;
 }
 
-.about h3 {
+.about h3, .colaboradores h3 {
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
     color: #f2f2f2;
+    text-shadow: black 3px 3px 5px;
+}
+
+
+h4{
+    font-size: 1.3em;
+    text-align: center;
+    color: #f2f2f2f6;
+    text-shadow: black 3px 3px 5px;
+}
+
+h5 {
+    font-size: 1em;
+    text-align: center;
+    color: #f2f2f2f6;
     text-shadow: black 3px 3px 5px;
 }
 
