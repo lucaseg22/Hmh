@@ -1,0 +1,253 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: #d4cbcbd0;
+    background-size: 100%;
+}
+
+@media (min-width:578px )
+{
+body {
+    background: url(./images/oficina.jpg);
+    background-position: center top;
+}
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+.st {
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #aaaaaa;
+}
+
+/* Sección de Inicio */
+.home {
+    /* background: #d4cbcb; */
+    color: rgba(255, 255, 255, 0);   
+    text-align: center;
+    padding: 50px 0;
+}
+
+.home-content h1 {
+    font-size: 3em;
+}
+
+.home-content p {
+    font-size: 1.5em;
+}
+
+.home-content img {
+    margin-left: 0%;
+    min-width: 450px;
+    width: 50%;
+    max-width: 750px;
+}   
+
+/* Sección Quiénes Somos */
+.about {
+    padding: 50px 20px; 
+    color: #fafafa;
+    background-color: #333;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: black 5px 2px 2px;
+}
+
+.about p {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+    min-width: 12em;
+    margin: 2%;
+    text-align: center;
+    color: #222222;
+}
+
+.about li img {
+    width: 25em;
+    height: 30em;
+    border-radius: 10%;
+}
+
+.about h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    color: #f2f2f2;
+    text-shadow: black 3px 3px 5px;
+}
+
+/* Sección de Nuestros Servicios */
+.services {
+    padding: 50px 20px;
+    /* background-color: #d4cbcb; */
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #f2f2f2;
+    text-shadow: black 3px 3px 5px;
+}
+
+.services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services li {
+    display: inline-block;
+    background: #ffffffcb;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px rgb(114, 114, 114);
+    width: 20em;
+    height: 25em;
+    min-width: 12em;
+    margin: 2%;
+    text-align: center;
+    color: #222222;
+}
+
+.services li:hover {
+    display: inline-block;
+    position:static;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 3px 3px 3px rgb(184, 184, 184);
+    width: 20em;
+    height: 25em;
+    min-width: 12em;
+    text-align: center;
+    color: #222222;
+}
+
+.services li h3 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.services p {
+    font-weight: bold;
+}
+
+/* Sección de Contacto */
+.contact {
+    padding: 50px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #ffffffe5;
+    color: #333;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button, .contactb {
+    background-color: #626262;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: .1px .1px .5px white;
+}
+
+.contact button:hover, .contactb:hover {
+    background-color: #383838;
+    text-decoration: none;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
