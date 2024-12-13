@@ -93,7 +93,7 @@ nav {
     padding: 20px 20px; 
     color: #fafafa;
     background: linear-gradient(#333,80%, gray);
-
+    box-shadow: gray 0px 3px 3px;
     text-align: center;
 }
 
@@ -154,10 +154,13 @@ h5 {
     text-shadow: black 3px 3px 5px;
 }
 
-/* Sección de Nuestros Servicios */
+@media(max-width: 600px){
+    .services{
+        padding: 20px 10px;
+    }
+}
 .services {
     padding: 50px 20px;
-    /* background-color: #d4cbcb; */
 }
 
 .services h2 {
