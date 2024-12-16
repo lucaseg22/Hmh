@@ -197,7 +197,7 @@ li h5 {
         margin: 0;
     }
 
-    .services li:hover{
+    .services li:hover, .services li:active{
         font-size: 15px;
     }
 
@@ -245,7 +245,7 @@ li h5 {
 }
 
 
-.services li:hover {
+.services li:hover, .services li:active {
     display: inline-block;
     position:static;
     background: #ffffff;
