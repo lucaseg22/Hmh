@@ -186,6 +186,9 @@ li h5 {
 }
 
 @media(max-width:650px){
+    .navbar {
+        position: sticky;
+    }
     .services{
         padding: 10px 10px;
     }
@@ -197,7 +200,7 @@ li h5 {
         margin: 0;
     }
 
-    .services li:hover, .services li:active{
+    .services li:hover, .services li:active, .services li:focus{
         font-size: 15px;
     }
 
@@ -245,7 +248,7 @@ li h5 {
 }
 
 
-.services li:hover, .services li:active {
+.services li:hover, .services li:active, .services li:focus {
     display: inline-block;
     position:static;
     background: #ffffff;
