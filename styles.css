@@ -192,10 +192,15 @@ li h5 {
     .services li{
         padding: 20px;
         font-size: 11px;
-        width: 15em;
+        width: 18em;
         height: 32em;
         margin: 0;
     }
+
+    .services li:hover{
+        font-size: 15px;
+    }
+
     .services ul {
         margin: 0;
         justify-content: space-evenly;
