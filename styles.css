@@ -186,7 +186,7 @@ li h5 {
 }
 
 @media(max-width:650px){
-    .navbar {
+    .navbar, nav {
         position: sticky;
     }
     .services{
