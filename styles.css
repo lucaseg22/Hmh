@@ -16,6 +16,33 @@ body {
     background-size: 100%;
 }
 
+.body {
+    background-color: #d4cbcbd0;
+}
+
+#carousel {
+    width: 50%;
+    height: 65%;
+    margin: auto;
+    margin-bottom: 2em;
+    display: flex;
+}
+
+#carousel img {
+    object-fit:contain;
+    width: 50%;
+    height: 15em;
+}
+
+.clients h2 {
+    text-shadow: rgb(0, 0, 0) px 3px 3px !important;
+    text-align: center;
+    margin: auto;
+    border-radius: 5%;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .5px;
+}
+
 @media (min-width:578px )
 {
 body {
@@ -25,8 +52,10 @@ body {
 }
 }
 
-h1, h2, h3 {
+ h2, h3 {
     font-weight: bold;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .5px;
 }
 
 .st {
@@ -41,17 +70,16 @@ ul {
 /* Barra de navegación */
 nav {
     background-color: #333;
-    padding: 10px;
+    padding: 20px;
     box-shadow: #333 0px 3px 3px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
+    justify-content: space-around !important;
 }
 
 .navbar li {
-    margin: 0 15px;
+    margin: 5px;
 }
 
 .navbar a {
@@ -140,30 +168,57 @@ nav {
 }
 
 
-h4{
+li h4{
     font-size: 1.3em;
+    font-weight: bold;
     text-align: center;
     color: #f2f2f2f6;
     text-shadow: black 3px 3px 5px;
 }
 
-h5 {
+li h5 {
     font-size: 1em;
     text-align: center;
     color: #f2f2f2f6;
     text-shadow: black 3px 3px 5px;
 }
 
-@media(max-width: 600px){
+@media(max-width:650px){
     .services{
-        padding: 20px 10px;
+        padding: 10px 10px;
+    }
+    .services li{
+        padding: 20px;
+        font-size: 10px;
+        width: 20em;
+        height: 25em;
     }
 }
-.services {
-    padding: 50px 20px;
+
+@media(min-width:651px){
+    .services {
+        padding: 50px 20px;
+    }
+
+    .services li {
+        width: 20em;
+        height: 25em;
+        min-width: 12em;
+        font-size: 15px;
+        padding: 20px;
+    }
 }
 
-.services h2 {
+.services li {
+    display: inline-block;
+    background: #ffffffcb;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px rgb(114, 114, 114);
+    margin: 2%;
+    text-align: center;
+    color: #222222;
+}
+.services h2, .clients h2 {
     font-size: 2.5em;
     margin-bottom: 25px;
     text-align: center;
@@ -177,20 +232,6 @@ h5 {
     justify-content: center;
 }
 
-.services li {
-    display: inline-block;
-    background: #ffffffcb;
-    padding: 20px;
-    font-size: 15px;
-    border-radius: 10%;
-    box-shadow: 3px 3px 3px rgb(114, 114, 114);
-    width: 20em;
-    height: 25em;
-    min-width: 12em;
-    margin: 2%;
-    text-align: center;
-    color: #222222;
-}
 
 .services li:hover {
     display: inline-block;
