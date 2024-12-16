@@ -41,6 +41,7 @@ body {
     border-radius: 5%;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: .5px;
+    paint-order: stroke fill;
 }
 
 @media (min-width:578px )
@@ -56,6 +57,7 @@ body {
     font-weight: bold;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: .5px;
+    paint-order: stroke fill;
 }
 
 .st {
