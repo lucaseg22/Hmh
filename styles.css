@@ -186,22 +186,15 @@ li h5 {
 }
 
 @media(max-width:650px){
-    .navbar, nav {
-        position: sticky !important;
-    }
     .services{
         padding: 10px 10px;
     }
     .services li{
         padding: 20px;
-        font-size: 11px;
         width: 18em;
-        height: 32em;
+        height: 25em;
         margin: 0;
-    }
-
-    .services li:hover, .services li:active, .services li:focus{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .services ul {
