@@ -187,7 +187,7 @@ li h5 {
 
 @media(max-width:650px){
     .navbar, nav {
-        position: sticky;
+        position: sticky !important;
     }
     .services{
         padding: 10px 10px;
