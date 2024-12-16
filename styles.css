@@ -254,8 +254,10 @@ li h5 {
     margin-bottom: 10px;
 }
 
-.services p {
+.services li p {
     font-weight: bold;
+    margin: .8em 0;
+
 }
 
 .services li p {
