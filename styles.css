@@ -194,12 +194,20 @@ li h5 {
         width: 16em;
         height: 30em;
         margin: 0;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .services ul {
         margin: 0;
         justify-content: space-evenly;
+    }
+    .services li:hover, .services li:active, .services li:focus {
+        display: inline-block;
+        background: #ffffff;
+        padding: 20px;
+        box-shadow: 3px 3px 3px rgb(184, 184, 184);
+        text-align: center;
+        color: #222222;
     }
 }
 
@@ -214,6 +222,19 @@ li h5 {
         min-width: 12em;
         font-size: 15px;
         padding: 20px;
+    }
+
+    .services li:hover, .services li:active, .services li:focus {
+        display: inline-block;
+        position:static;
+        background: #ffffff;
+        padding: 20px;
+        box-shadow: 3px 3px 3px rgb(184, 184, 184);
+        width: 20em;
+        height: 25em;
+        min-width: 12em;
+        text-align: center;
+        color: #222222;
     }
 }
 
@@ -241,18 +262,7 @@ li h5 {
 }
 
 
-.services li:hover, .services li:active, .services li:focus {
-    display: inline-block;
-    position:static;
-    background: #ffffff;
-    padding: 20px;
-    box-shadow: 3px 3px 3px rgb(184, 184, 184);
-    width: 20em;
-    height: 25em;
-    min-width: 12em;
-    text-align: center;
-    color: #222222;
-}
+
 
 .services li h3 {
     font-size: 1.8em;
