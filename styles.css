@@ -20,20 +20,6 @@ body {
     background-color: #d4cbcbd0;
 }
 
-#carousel {
-    width: 50%;
-    height: 65%;
-    margin: auto;
-    margin-bottom: 2em;
-    display: flex;
-}
-
-#carousel img {
-    object-fit:contain;
-    width: 50%;
-    height: 15em;
-}
-
 .clients h2 {
     text-shadow: rgb(0, 0, 0) px 3px 3px !important;
     text-align: center;
@@ -101,6 +87,7 @@ nav {
     color: rgba(255, 255, 255, 0);   
     text-align: center;
     padding: 50px 0;
+    height: 30em;
 }
 
 .home-content h1 {
@@ -114,8 +101,9 @@ nav {
 .home-content img {
     margin-left: 0%;
     min-width: 350px;
-    width: 45%;
-    max-width: 750px;
+    width: 14m;
+    height: 10em;   
+    ;
 }   
 
 /* Sección Quiénes Somos */
@@ -186,42 +174,45 @@ li h5 {
 }
 
 @media(max-width:650px){
+    .home-content img {
+        width: 8em;
+        height: 6em;
+    }
     .services{
         padding: 10px 10px;
     }
     .services li{
         padding: 20px;
-        width: 16em;
+        width: 25em;
         height: 30em;
-        margin: 0;
+        margin: 2%;
         font-size: 13px;
     }
 
     .services ul {
         margin: 0;
         justify-content: space-evenly;
-    }
-    .services li:hover, .services li:active, .services li:focus {
-        display: inline-block;
-        background: #ffffff;
-        padding: 20px;
-        box-shadow: 3px 3px 3px rgb(184, 184, 184);
-        text-align: center;
-        color: #222222;
+        flex-wrap: wrap;
     }
 }
 
+.services li h4{
+    color: #333;
+    text-shadow: none;
+}
 @media(min-width:651px){
     .services {
         padding: 50px 20px;
     }
 
     .services li {
+        box-sizing: content-box;
         width: 20em;
-        height: 25em;
+        height: 28em;
         min-width: 12em;
         font-size: 15px;
         padding: 20px;
+        margin: 1em 8em;
     }
 
     .services li:hover, .services li:active, .services li:focus {
@@ -231,7 +222,7 @@ li h5 {
         padding: 20px;
         box-shadow: 3px 3px 3px rgb(184, 184, 184);
         width: 20em;
-        height: 25em;
+        height: 28em;
         min-width: 12em;
         text-align: center;
         color: #222222;
@@ -243,7 +234,6 @@ li h5 {
     background: #ffffffcb;
     border-radius: 10%;
     box-shadow: 3px 3px 3px rgb(114, 114, 114);
-    margin: 2%;
     text-align: center;
     color: #222222;
 }
@@ -335,4 +325,18 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+#carousel {
+    width: 45%;
+    height: 65%;
+    margin:auto;
+    margin-bottom: 2em;
+    display: flex;
+}
+
+#carousel img {
+    object-fit:contain;
+    width: 50%;
+    height: 15em;
 }
