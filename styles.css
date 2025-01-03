@@ -99,6 +99,7 @@ nav {
 }
 
 .home-content img {
+    text-align: center;
     margin-left: 0%;
     min-width: 350px;
     width: 14m;
@@ -327,16 +328,20 @@ footer {
     padding: 20px;
 }
 
+.clients{
+    height: 100vh;
+}
+
 #carousel {
     width: 45%;
-    height: 65%;
+    height: 80vh;
     margin:auto;
-    margin-bottom: 2em;
+    margin-top: 15vh;
     display: flex;
 }
 
-#carousel img {
+#carousel div img {
     object-fit:contain;
     width: 50%;
-    height: 15em;
+    height: 60vh;
 }
